@@ -1,5 +1,6 @@
 #!/usr/bin/env bb
-(require '[babashka.curl :as curl])
+(ns petardo.vhoasts
+  (:require [babashka.curl :as curl]))
 
 (defn crude-html-strip
   "Crudely remove HTML tags from string `s`."
