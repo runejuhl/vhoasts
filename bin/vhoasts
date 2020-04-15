@@ -1,0 +1,2 @@
+#!/bin/sh
+deps.clj -A:petardo.vhoasts -Scommand "bb -cp {{classpath}} {{main-opts}} -m petardo.vhoasts.main" "${*}"
