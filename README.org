@@ -1,0 +1,8 @@
+* vhoasts
+A simple [[https://crt.sh]] scraper written in Clojure/babashka.
+
+** Example usage
+#+begin_example
+$ ./bin/vhoasts %.example.org
+#{"www.example.org" "example.org" "www.testdomain.example.org" "name@example.org"}
+#+end_example
